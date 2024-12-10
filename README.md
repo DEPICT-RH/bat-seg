@@ -27,3 +27,4 @@ TotalSegmentator -i path/to/input/ct.nii.gz \
 ```
 
 **Note:** The first time you use this command, the model weights will be automatically downloaded to your .totalsegmentator folder.
+**Note:** By default, TotalSegmentator uses the model_final_checkpoint in the loaded weights folder. To use the best fold checkpoints from the 5-fold cross-validation (as done in our paper), manually overwrite the model_final_checkpoint files with the model_best_checkpoint files. These can be found in each fold folder within the hidden .totalsegmentator directory containing the datasets. For the BAT dataset, the corresponding dataset folder is Dataset901.
