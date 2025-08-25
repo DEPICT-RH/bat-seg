@@ -28,7 +28,8 @@ setup(name='TotalSegmentator',
             'requests;python_version>="3.10"',
             'rt_utils',
             'dicom2nifti',
-            'pyarrow'
+            'pyarrow',
+            'gdown',
         ],
         zip_safe=False,
         classifiers=[
