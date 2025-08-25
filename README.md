@@ -9,8 +9,8 @@ For questions, please contact **Kasper Jørgensen** at [kasper.joergensen.02@reg
 Clone the repository and install it in your environment:
 
 ```bash
-git clone https://github.com/Kasperjoergensen3/TotalSegmentator.git
-pip install -e TotalSegmentator/
+git clone https://github.com/DEPICT-RH/bat-seg
+pip install -e bat-seg
 ```
 
 ## Usage
